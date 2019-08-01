@@ -1,0 +1,41 @@
+{
+  "name": "olympus-r-dom",
+  "version": "0.6.17",
+  "description": "Olympus的DOM表现层库",
+  "files": [
+    "dom/",
+    "index.d.ts",
+    "DOMBridge.d.ts",
+    "DOMBridge.js"
+  ],
+  "main": "DOM.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "typedoc": "node_modules/.bin/typedoc --readme none --mode modules --theme minimal --out docs src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raykid/Olympus.git"
+  },
+  "keywords": [
+    "Olympus",
+    "DOM"
+  ],
+  "author": "raykid",
+  "contributors": [
+    "gelan"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raykid/Olympus/issues"
+  },
+  "homepage": "https://github.com/Raykid/Olympus#readme",
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.2.0",
+    "@types/tween.js": "^16.9.0"
+  },
+  "devDependencies": {
+    "olympus-r": "^0.6.79",
+    "typedoc": "^0.11.1"
+  }
+}

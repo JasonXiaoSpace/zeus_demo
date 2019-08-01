@@ -1,0 +1,38 @@
+{
+  "name": "olympus-r-egret",
+  "version": "0.6.21",
+  "description": "Olympus的Egret表现层库",
+  "files": [
+    "egret/",
+    "index.d.ts",
+    "EgretBridge.d.ts",
+    "EgretBridge.js"
+  ],
+  "main": "Egret.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "typedoc": "node_modules/.bin/typedoc --readme none --mode modules --theme minimal --out docs src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raykid/Olympus.git"
+  },
+  "keywords": [
+    "Olympus",
+    "Egret"
+  ],
+  "author": "raykid",
+  "contributors": [
+    "gelan"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raykid/Olympus/issues"
+  },
+  "homepage": "https://github.com/Raykid/Olympus#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "olympus-r": "^0.6.101",
+    "typedoc": "^0.11.1"
+  }
+}
